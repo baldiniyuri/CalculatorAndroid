@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Container_Buttons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <style name="Operator_Button" parent="Container_Buttons">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Numbers" parent="Container_Buttons">
+        <item name="android:background">@drawable/clicked_state_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
